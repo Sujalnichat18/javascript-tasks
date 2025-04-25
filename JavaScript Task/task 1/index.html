@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive JS Events</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>JavaScript Event Playground</h1>
+
+    <div class="card" id="clickCard">
+      <h2 id="clickText">Click me to change text</h2>
+    </div>
+
+    <div class="card" id="hoverBox">
+      Hover over me
+    </div>
+
+    <div class="card">
+      <button onclick="toggleDiv()">Toggle Visibility</button>
+      <div id="toggleDiv">This div is toggleable</div>
+    </div>
+
+    <div class="card">
+      <p id="dblClickPara">Double-click me to change my color</p>
+    </div>
+
+    <div class="card">
+      <button id="hoverButton">Hover me</button>
+      <div id="message">You hovered over the button!</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
