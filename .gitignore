@@ -1,0 +1,14 @@
+# Front-end build tools (if added)
+dist/
+build/
+
+# Editor configs
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
+*.bak
+*.swp
+.env
